@@ -1,0 +1,81 @@
+	html { left:0; top:0; height: 100%; width: 100%; }
+	body { position:absolute; width:100%; height:100%; margin: auto; top:0; left:0;  background:url(BG3.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;}
+	#mainWindow { position:relative; float:none; width:100%; height:100%; margin-left:auto; margin-right:auto; }
+	.formHolder { float:left; width:100%; clear:both; margin-bottom:1vh; }
+	.formTitle { float:left; font-size:1.5vw; margin-right:1vw; font-family:Questrial; }
+	.textInput { float:right; height:3vh; width:13vw; }
+	.selectInput { float:right; height:4vh; }
+	.ui-helper-hidden-accessible {display:none; }
+	#ui-id-1 { max-height: 50vh; overflow-y: auto;}
+
+	#column1 { float:left; width:14vw; height:100%; background:rgba(255,255,255,0.7); }
+	#c1Header { float: left; width: 96.8%; margin-left: 2%; height: 3%; margin-top: 2vh; margin-bottom: 2vh; clear:both; }
+	#leftName { float:left; font-size:2vw; font-family:Questrial; }
+	#nav1 { background: #c1392d; }
+	#nav2 { background: #f1c40f; }
+	#nav3 { background: #1a7440; }
+	#nav4 { background: #297fb8; }
+	.navTab { position:relative; float: left; width:100%; height: 25%; cursor:pointer; opacity:0.7; clear:both;}
+	.spanTab { position:absolute; width:100%; bottom: 4vh; text-align: center; color:#FFF; font-family:Questrial; font-size:2vw; pointer-events:none; }
+	.navImg { position:absolute; width: 5vw; top:5vh; left:4.5vw; }
+	.navClicked { font-weight:bold; cursor:default; }
+	.dashLink { float:right; margin-left:2vw; font-size:1.5vw; padding-top:1%; padding-bottom:1%; padding-left:5%; padding-right:5%; margin-top: -0.5%; border:1px solid #b3b3b3; text-decoration:none; font-family:Questrial; color:#000; background: rgba(255,255,255,0.8); }
+	
+	#column2 { position:relative; float:left; width:84vw; height:100%;  background:rgba(255,255,255,0.8); }
+	#tab1 { position:absolute; top:0; left:0; width:100%; height:100vh; }
+	#pageScroll { position:absolute; top:0; left:0; width:100%; height:92vh; overflow-y:auto; }
+	#fBox1 { float:left; margin-top:1vh; margin-left:1vw; }
+	#fBox1A { float:left; height:19vh; width: 17.5vw; padding: 1vh; clear:both; background:rgba(255,255,255,0.8); border:1px solid #b3b3b3; }
+	#SellingProperty { float:left; width:100%; margin-left:0.5vw; margin-bottom:1vh; clear:both; }
+	#selling { float: left; margin-right:0.5vw; margin-top: 1.3vh; width: 1.2vw; height: 1.2vw; }
+	#RentingProperty { float:left; width:100%; margin-left:0.5vw; margin-bottom:1vh; clear:both; }
+	#renting { float: left; margin-right:0.5vw; margin-top: 1.3vh; width: 1.2vw; height: 1.2vw; }
+	#SelectWarning { float:left; clear:both; color:red; margin-left:0.5vw; display:none; }
+	#fBox1B { position:relative; float:left; margin-top:2vh; height:19vh; width: 17.5vw; padding: 1vh;  background:rgba(255,255,255,0.8); border:1px solid #b3b3b3; clear:both; }
+	#p-mainPic { float:left; margin-top:2vh; clear:both; }
+	#fBox2 { margin-top: 1vh; margin-right: 1vw; position: relative; float: right; width:61.5vw; height:auto; padding-top:1vh; background:rgba(255,255,255,0.8); border:1px solid #b3b3b3;}
+	#fHolderAdd1 { float:left; width:46%; padding-left:2%; padding-right:2%; height:60%; }
+	#fHolderAdd2 { float:right; width:39%; padding-right:2%; height:55%; }
+	#fBox3 { float: left; clear: both; width: 97.5%; min-height: 7vh; height:auto; margin-left: 1vw; margin-top: 1.5vh; background:rgba(255,255,255,0.8); border:1px solid #b3b3b3; } 
+	#checkHolder { float:left; width:100%; clear:both; margin-top:1vh; }
+	#checkLabel { float:left; font-size:1.5vw; margin-left:1vw; margin-right:0.5vw; font-family:Questrial; }
+	#vtour { width: 1.3vw; height: 1.3vw; float: left; }
+	#addPropHolder { position: absolute; left: 1vw;    bottom: 1.2vh; }	
+	#addProp { float:left; width:30vw; height:6vh; }
+	.infoFix { float:right; width:11vw; }
+	.textInputR { float:left; height:3vh; }
+	.selectInputR { float:left; height:3vh; }
+	
+	#tab2 { position:absolute; top:0; left:3%; width:97%; height:100%; display:none; }
+	#tab3 { position:absolute; top:0; left:0; width:100%; height:100%; display:none; }
+	#updateForm { float:left; padding-top:2vh; width:50%; margin-left:2vw; }
+	.formElement { float:left; clear:both; margin-bottom:1vh; width:100%; }
+	.formT { float:left; font-family:Questrial; font-size:1.2vw; font-weight:bold; }
+	.formInput { float:right; height: 2.8vh; width: 15vw; }
+	
+	#tabScroll { position:relative; float:left; width:100%; height:100%; overflow-y:auto; } 
+	#tabScroll::-webkit-scrollbar-track{ background: transparent;}
+	#tabScroll::-webkit-scrollbar{ width: 0.8vw; background-color: #F5F5F5; }
+	#tabScroll::-webkit-scrollbar-thumb{ background: #FFF; border:1px solid #b3b3b3; }
+	
+	#cEdit1 { float:left; width:40%; }
+	#cEdit2 { float:left; width:40%; margin-left:2vw; }
+	.homelisting { position:relative; float:left; width:99.9%; min-height:14.4vh; height:auto; clear:both; padding-bottom:1vh; margin-top: 1vh; background:rgba(255,255,255,0.8); border:1px solid #b3b3b3; }
+	.homeDetail { position:relative; float:left; width:70%; margin-left:1vw; margin-bottom: 1vh; font-family: Questrial, sans-serif; color:#000; padding-top:1vh; }
+	.editListing { float:left; width:15vw; height:4vh; margin-left:2vw; margin-top:1vh; clear:both; }
+	.editField { position:relative; float:left; width: 95%; margin-left: 1.7%; height:82.3vh; clear:both; display:none; }
+	.tourField { position:relative; float:left; width: 97.5%; margin-left: 1.7%; height:74vh; margin-bottom: 8vh; border:1px solid #b3b3b3; clear:both; overflow-y:auto; display:none; }
+	.newField { position:relative; float:left; width: 97.5%; margin-left: 1.7%; height:74vh; margin-bottom: 8vh; border:1px solid #b3b3b3; clear:both; overflow-y:auto; display:none; }
+	.submitEdit { position:absolute; bottom:2vh; left:2vw; width:15vw; height:4vh; display:none; clear:both; }
+	.formInput2 { float:right; height: 2.8vh; width: 15vw; margin-left:1vw; }
+	.sForm2 { float:right; height:2.8vh; width:15.25vw; }
+	.enterSwitch { float:left; margin-left:1.1vw; margin-bottom:3vh; clear:left; display:none; padding-left:0.5vw; padding-right:0.5vw; padding-top:0.8vh; padding-bottom:0.8vh; border:1px solid black; }
+	.switchItem { float:left; margin-right:1vw; font-family: Questrial, sans-serif; color:#000; font-size:1.2vw; cursor:pointer; }
+	.switchClicked { font-weight:bold; }
+	.goTo { float:left; font-family: Questrial, sans-serif; color:#000; font-size:1.2vw; font-weight:normal; text-decoration:none; cursor:pointer; }
+	.goTo:hover { font-weight:bold; }
+	.closeDelete { float:left; margin-left:1vw; margin-top:0.5vh; display:none; }
+	.closeEntry { float:left; margin-left:1vw; font-family: Questrial, sans-serif; color:#000; font-size:1.2vw; font-weight:normal; cursor:pointer; }
+	.closeEntry:hover { font-weight:bold; }
+	.deleteEntry { float:left; font-family: Questrial, sans-serif; color:#FF0000; margin-left:1vw; font-size:1.2vw; font-weight:normal; cursor:pointer; }
+	.deleteEntry:hover { font-weight:bold; }
